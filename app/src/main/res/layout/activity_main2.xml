@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginRight="4dp"
+    android:layout_marginLeft="4dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#f20606"
+        android:elevation="5dp"
+        app:cardCornerRadius="8dp"
+        tools:ignore="UnusedAttribute">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Green"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="52dp"
+                android:layout_height="56dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/modle"
+                tools:ignore="ContentDescription"
+                android:id="@+id/modle_image" />
+
+            <TextView
+                android:id="@+id/modle_number"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Model number"
+                android:textSize="32sp"
+                tools:ignore="HardcodedText"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/modle_image"
+                android:layout_toEndOf="@+id/modle_image"
+                android:layout_marginLeft="24dp"
+                android:layout_marginStart="24dp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+
+
+

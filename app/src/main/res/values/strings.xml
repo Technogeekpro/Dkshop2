@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Dk shop</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_arbaz">HELLO ARBAZ</string>
+</resources>
